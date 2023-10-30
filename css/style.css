@@ -1,0 +1,483 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+*,
+*:before,
+*:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+
+}
+
+a:focus,
+a:active {
+    outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+    display: block;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    font-size: 100%;
+    line-height: 1;
+    font-size: 14px;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+
+}
+
+input,
+button,
+textarea {
+    font-family: inherit;
+}
+
+input: -ms-clear {
+    display: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+button:-moz-focus-inner {
+    padding: 0;
+    border: 0;
+}
+
+a,
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+ul li {
+    list-style: none;
+}
+
+img {
+    vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: inherit;
+    font-weight: 400;
+}
+
+
+
+.block_glavniy {
+    display: flex;
+
+}
+
+
+.zogolovok {
+    font-size: 48px;
+    flex: 1.8;
+}
+
+
+.block_h1 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    padding: 34px 250px;
+
+}
+
+
+.menu_li {
+    list-style: none;
+    display: flex;
+    flex: 1;
+    margin: 50px 0px 33px;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+
+.item_li {
+    display: flex;
+}
+
+
+
+.block_li {
+    margin-left: 37px;
+    font-size: 22px;
+
+
+}
+
+
+.item_li li a {
+    color: #000000;
+
+}
+
+
+.block_li:hover {
+    border-bottom: 2px solid #000000;
+}
+
+
+
+/*Второй меню*/
+
+
+.block_main_menu {
+    background-color: black;
+}
+
+
+.ul_name {
+    display: flex;
+    margin: 0px 230px;
+
+}
+
+
+.lin_block {
+    color: #FFFFFF;
+    font-size: 20px;
+    margin: 18px 30px;
+    font-family: 'Roboto', sans-serif;
+    padding: 3px 10px;
+
+}
+
+
+.lin_block a{
+    color: #FFFFFF;
+}
+
+
+
+.lin_block:hover {
+    border-top: 2px solid #FFFFFF;
+    border-bottom: 2px solid #FFFFFF;
+}
+
+
+
+/*Посты*/
+
+
+.users {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.center-main {
+    display: flex;
+   
+}
+
+
+
+.posts_item {
+    
+    background-color: #EBEBEB;
+    height: 450px; 
+}
+
+
+
+.obdayt {
+    display: flex;
+   margin-top: 25px;
+
+}
+
+
+
+
+.get {
+    flex: 2;
+
+
+}
+
+
+
+
+.ofter {
+	margin: 33px 40px;
+	font-size: 20px; 
+	font-family: 'Roboto', sans-serif;
+
+}
+
+
+
+
+.ser {
+    flex: 1;
+    text-align: right;
+    margin: 30px 40px;
+	font-size: 19px; 
+	font-family: 'Roboto', sans-serif;
+}
+
+
+
+.ssilka{
+	color: #000000;
+
+}
+
+
+
+
+.ser :hover{
+ border-bottom: 1px solid #000000;
+
+}
+
+
+
+.block_posts {
+display: flex;
+margin-bottom: 27px;
+margin-right: 36px;
+
+
+}
+
+
+
+.pover{
+
+display: flex;
+
+
+}
+
+
+
+.imges{
+
+margin-left: 40px;
+width: 125px;
+height: 125px;
+
+
+}
+
+
+
+.block_text{
+
+	margin-left: 19px;
+}
+
+
+
+.vahid{
+
+	font-size: 21px;
+	font-family: 'Roboto', sans-serif;
+}
+
+
+
+.sping:hover{
+	border-bottom: 1px solid #282923;  
+}
+
+
+
+.hover{
+font-size: 15px;
+margin-top: 7px;
+font-family: 'Roboto', sans-serif;
+font-weight: 300;
+color: #002126;
+
+}
+
+
+.hover a{
+	color: #002126;
+	
+}
+
+
+.hover a:hover{
+	border-bottom: 1px solid #282923;
+
+}
+
+
+
+.forch{
+
+	width: 240px;
+	margin-top: 10px;
+	font-size: 16px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+	color: #002126;
+
+
+
+}
+
+
+
+/*Второй стольбец*/
+
+  
+.goert{
+
+flex: 1;
+
+}
+
+
+
+.block_2 {
+	margin-left: 25px;
+    background-color: #EBEBEB;
+    width: 450px;
+    height: 130px;
+    margin-top: 25px;
+    background-color: #EBEBEB;
+
+    
+}
+
+
+
+.block_2_h1{
+padding: 30px 40px; 
+}
+
+
+
+
+.block_2_h1{
+
+	font-size: 20px;
+	font-family: 'Roboto', sans-serif;
+
+}
+
+
+
+.stolb_2{
+	
+	background-color: #EBEBEB;
+	margin: 30px 25px;
+	width: 450px;
+
+
+
+}
+
+
+.fi_kalb{
+	margin: 30px 25px; 
+
+	
+
+}
+
+
+
+.statey{
+	padding: 35px 25px;
+	font-size: 20px;
+	font-family: 'Roboto', sans-serif;
+}
+
+
+
+.khgy{
+	display: flex;
+}
+
+
+
+.imgs{
+	height: 125px;
+	margin-left: 36px;	
+}
+
+
+
+
+.bloc_text{
+	margin-left: 18px;
+}
+
+
+
+
+.ahid{
+	font-size: 20px;
+	font-family: 'Roboto', sans-serif;
+
+}
+
+
+.spipng:hover{
+	border-bottom: 1px solid  #002126;
+}
+
+
+
+.cover {
+font-size: 15px;
+margin-top: 7px;
+font-family: 'Roboto', sans-serif;
+font-weight: 300;
+color: #002126;
+
+}
+
+
+.cover a{
+	color: #002126;
+}
+
+.cover a:hover{
+	border-bottom: 1px solid  #002126;
+
+
+}
+
+
+
+
+.orh{
+	width: 240px;
+	margin-top: 10px;
+	font-size: 16px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+	color: #002126;
+	margin-bottom: 33px;
+}
